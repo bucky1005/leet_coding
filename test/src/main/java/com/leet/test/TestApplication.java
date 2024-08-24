@@ -10,5 +10,5 @@ public class TestApplication {
         SpringApplication.run(TestApplication.class, args);
     }
         // 매일 1-2문제씩 풀기
-        // 8/21 부터 바로 시작
+        // 8/26 부터 바로 시작
 }
