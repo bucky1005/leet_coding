@@ -12,4 +12,5 @@ public class TestApplication {
         // 매일 1-2문제씩 풀기
         // 8/26 부터 바로 시작
         // the leet code beginner
+
 }
