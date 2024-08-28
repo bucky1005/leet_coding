@@ -8,6 +8,8 @@ public class TestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TestApplication.class, args);
+
+        int a, b;
     }
         // 매일 1-2문제씩 풀기
         // 8/26 부터 바로 시작
