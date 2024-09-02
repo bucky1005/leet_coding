@@ -18,6 +18,7 @@ public class ArrayQueue<E> implements Queue<E> {
         this.front = 0;
         this.rear = 0;
     }
+    // 배열 큐
 
     // 생성자2 (초기 용적 할당을 할 경우)
     public ArrayQueue(int capacity) {
