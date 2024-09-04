@@ -3,6 +3,7 @@ package com.leet.test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -38,4 +39,6 @@ public class TestApplication {
             System.out.println(queue.poll());
         }
     }
+
+    ArrayDeque arrayDeque = new ArrayDeque();
 }
