@@ -42,7 +42,7 @@ public class ArrayDeque<E> implements Queue<E>, Cloneable {
 
     private void resize(int newCapacity) {
 
-        int arrayCapacity = array.length; // 현재 용적 크기
+        int arrayCapacity = array.length;
 
         Object[] newArray = new Object[newCapacity]; // 용적을 변경한 배열
 
