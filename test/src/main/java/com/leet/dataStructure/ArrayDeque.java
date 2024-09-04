@@ -4,16 +4,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.NoSuchElementException;
 
-/**
- *
- * @param <E> the type of elements in this Deque
- *
- * @author st-lab.tistory.com
- * @version 1.0
- * @see Queue
- *
- */
-
 public class ArrayDeque<E> implements Queue<E>, Cloneable {
 
     private static final int DEFAULT_CAPACITY = 64; // 최소(기본) 용적 크기
