@@ -24,10 +24,12 @@ public class HashSet<E> implements Set<E> {
         int hash;
         if (key == null) {
             return 0;
-        } else {
-            // hashCode()의 경우 음수가 나올 수 있으므로 절댓값을 통해 양수로 변환해준다.
-            return Math.abs(hash = key.hashCode()) ^ (hash >>> 16);
         }
+//        } else {
+//            // hashCode()의 경우 음수가 나올 수 있으므로 절댓값을 통해 양수로 변환해준다.
+//            return Math.abs(hash = key.hashCode()) ^ (hash >>> 16);
+//        }
+        return 0;
     }
 
     @Override
